@@ -1,28 +1,28 @@
 [
   {
     "interviewee": "村長",
-    "interviewer": "Jane Smith",
+    "interviewer": "游同學、姚同學、韓同學",
     "date": "2024 秋",
     "fileLocation": "/files/interview1.mp3",
     "image": "./img/1.jpeg"
   },
   {
-    "interviewee": "張文斌",
-    "interviewer": "Bob Brown",
+    "interviewee": "張文斌老師",
+    "interviewer": "楊宜庭、曾筱晴",
     "date": "2024 秋",
     "fileLocation": "/files/interview2.mp3",
     "image": "./img/2.jpeg"
   },
   {
-    "interviewee": "Michael White",
-    "interviewer": "Sarah Green",
+    "interviewee": "簡淑慧",
+    "interviewer": "梁本聖",
     "date": "2024 秋",
     "fileLocation": "/files/interview3.mp3",
     "image": "./img/3.jpeg"
   },
   {
-    "interviewee": "Michael White",
-    "interviewer": "Sarah Green",
+    "interviewee": "張老師姊姊及其同事",
+    "interviewer": "洪蕾欣、林妙樺",
     "date": "2024 秋",
     "fileLocation": "/files/interview3.mp3",
     "image": "./img/3.jpeg"
