@@ -1,5 +1,6 @@
 // 讀取 story.json
-fetch("https://script.google.com/macros/s/AKfycby0th-CDDbeD3ZoMGt_J8L2ppxzpragMHpJfm0CTLifj0OAznSTA60VukbIF_fZ2MkVbw/exec")
+// https://script.google.com/macros/s/AKfycby0th-CDDbeD3ZoMGt_J8L2ppxzpragMHpJfm0CTLifj0OAznSTA60VukbIF_fZ2MkVbw/exec
+fetch("story.json")
     .then(response => response.json())
     .then(interviews => {
         const articleGrid = document.getElementById("article-grid"); // 選取要放入的容器
