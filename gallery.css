@@ -1,0 +1,36 @@
+/******************************************
+*  Author : Author   
+*  Created On : Sat Jan 18 2025
+*  File : gallery.css
+*******************************************/
+
+
+/* 新增 hover 顯示文字 建立對應 */
+
+.row > div {
+    padding: 0 7px !important;
+}
+
+img {
+  margin-top: 10px;
+  vertical-align: middle;
+  transition: transform 0.5s ease; /* 添加過渡效果 */
+  border-radius: 2px;
+}
+
+img:hover{
+    transform: scale(1.02);
+}
+
+#content{
+    width: 80%;
+}
+
+
+/* 這個是gallery2.html測試用的 */
+.image{
+    height: 200px;
+    width: 300px;
+    /* overflow: hidden;; */
+    object-fit: contain;
+}

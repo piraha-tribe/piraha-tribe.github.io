@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" type="text/css" href="./map.css">
+
+    <!-- map -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <title>丸山數位資料庫</title>
+  </head>
+  <body>
+
+	<div class="container-fluid" id="header">
+		<nav class="navbar navbar-expand-md navbar-light">
+			<div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img class="icon" src="./img/image.png"></a>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo03">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="./index.html">人物訪談</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./Map.html">地圖</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./Gallery.html">相簿</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./About.html">關於</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	
+
+    <div class="container mt-2 mb-2 pt-3 pb-5">
+        <div class="box">
+            <div id="mapid"></div>
+        </div>
+	</div>
+
+
+    <!-- <div class="container mt-2 mb-2 pt-3 pb-5">
+        <hr/>
+        <div id="map_info">
+            <div id="聖嘉民啟智中心">
+                <h3>聖嘉民啟智中心</h3>
+                <p>1987年6月30日由義大利籍呂若瑟神父利用廢棄的修道院改建創辦，初期成立日間起智組，1990年7月成立重殘養護組，當年並由宜蘭縣政府委託成立國小啟智班，學籍設於順安國小，1991年7月成立職業訓練組後改為生活訓練組，1995年再成立國中啟智班，學籍設於順安國中，1998年成立學前啟智班及宜蘭縣早期療育通報系統及轉介中心。由於冬山鄉公所收回土地，故療養院與啟智中心於2009年遷往三星大隱村。</p>
+            </div>
+            <div id="丸山天主堂">
+                <h3>丸山天主堂</h3>
+                <p>剛開始天主教</p>
+            </div>
+        </div>
+	</div> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="map.js"></script>
+</body>
+</html>

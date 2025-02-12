@@ -1,0 +1,17 @@
+[
+  {
+    "photoLocation": "/images/photo1.jpg",
+    "description": "這是一張美麗的風景照。",
+    "tags": ["風景", "自然", "美麗"]
+  },
+  {
+    "photoLocation": "/images/photo2.jpg",
+    "description": "這是一張城市的夜景。",
+    "tags": ["城市", "夜景", "燈光"]
+  },
+  {
+    "photoLocation": "/images/photo3.jpg",
+    "description": "這是一張古老的建築物。",
+    "tags": ["建築", "歷史", "古老"]
+  }
+]

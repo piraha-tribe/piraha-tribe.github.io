@@ -1,0 +1,30 @@
+[
+  {
+    "interviewee": "村長",
+    "interviewer": "Jane Smith",
+    "date": "2024 秋",
+    "fileLocation": "/files/interview1.mp3",
+    "image": "./img/1.jpeg"
+  },
+  {
+    "interviewee": "張文斌",
+    "interviewer": "Bob Brown",
+    "date": "2024 秋",
+    "fileLocation": "/files/interview2.mp3",
+    "image": "./img/2.jpeg"
+  },
+  {
+    "interviewee": "Michael White",
+    "interviewer": "Sarah Green",
+    "date": "2024 秋",
+    "fileLocation": "/files/interview3.mp3",
+    "image": "./img/3.jpeg"
+  },
+  {
+    "interviewee": "Michael White",
+    "interviewer": "Sarah Green",
+    "date": "2024 秋",
+    "fileLocation": "/files/interview3.mp3",
+    "image": "./img/3.jpeg"
+  }
+]
